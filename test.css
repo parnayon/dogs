@@ -1,0 +1,68 @@
+body, html {
+    font-family: 'Roboto', sans-serif;
+    color: #3859FF;
+    background-color: white;
+    font-size: 1.2em;
+    cursor: url(images/cursor1.png), auto;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    height: 6%;
+    width: 70%;
+}
+table.table1 {
+    margin-bottom: 4%;
+}
+
+table.table1 td.td1 {
+    text-align: right;
+}
+
+table.table2 td {
+    text-align: center;
+}
+
+table.table2 tr.tr2 td {
+    padding-top: 10%;
+}
+
+img {
+    width: 70%;
+    max-width: 120px;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #3859FF;
+}
+
+a.black {
+    color:#414141;
+}
+
+a.black:hover {
+    color: #afafaf;
+}
+
+a:hover {
+    cursor: url(images/cursor2.png), auto;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: .7em;
+    }
+}
+
+p {
+    text-align: center;
+    color:#414141;
+    font-size: 70%;
+    position: absolute;
+    bottom: 2%;
+    width: 100%;
+}
