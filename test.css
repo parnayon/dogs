@@ -1,9 +1,9 @@
 body, html {
     font-family: 'Roboto', sans-serif;
-    color: #3859FF;
+    color: #414141;
     background-color: white;
     font-size: 1.2em;
-    cursor: url(cursor1.png), auto;
+    cursor: url(cursor1small.png), auto;
     margin:0%;
 }
 
@@ -11,11 +11,11 @@ table {
     margin-left: auto;
     margin-right: auto;
     margin-top: 3%;
-    height: 6%;
     width: 70%;
 }
-table.table1 {
-    margin-bottom: 4%;
+
+table.table2 {
+    margin-top: 0%;
 }
 
 table.table1 td.td1 {
@@ -27,7 +27,17 @@ table.table2 td {
 }
 
 table.table2 tr.tr2 td {
-    padding-top: 10%;
+    padding-top: 5%;
+}
+
+table.table3 {
+    text-align: center;
+}
+
+td.thedog {
+    border: 3px solid #414141;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 img {
@@ -38,11 +48,7 @@ img {
 
 a {
     text-decoration: none;
-    color: #3859FF;
-}
-
-a.black {
-    color:#414141;
+    color: #414141;
 }
 
 a.black:hover {
@@ -50,12 +56,12 @@ a.black:hover {
 }
 
 a:hover {
-    cursor: url(cursor2.png), auto;
+    cursor: url(cursor2small.png), auto;
 }
 
 @media only screen and (max-width: 600px) {
-    body {
-        font-size: .7em;
+    table {
+        width: 90%
     }
 }
 
